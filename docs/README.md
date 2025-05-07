@@ -3,7 +3,6 @@
 
 *Autonomous Modular Ocean Swarm for Maritime Defense, Monitoring, and Research*
 
-![Bad Buoys Application Diagram](images/application_overview.png)
 
 **Bad Buoys** is an open-source maritime drone platform built for anyone—nations, researchers, or hackers—to deploy autonomous ocean buoys with modular payloads, mesh communication, and swarm logic.
 
