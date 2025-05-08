@@ -6,7 +6,7 @@
 
 **Bad Buoys** is an open-source maritime drone platform built for anyone—nations, researchers, or hackers—to deploy autonomous ocean buoys with modular payloads, mesh communication, and swarm logic.
 
-🔗 [Read the White Paper](https://github.com/BadBuoy1/Badbuoy.project/blob/main/docs/BadBuoys.pdf)
+🔗 [Read the White Paper (PDF)](https://github.com/BadBuoy1/Badbuoy.project/main/docs/BadBuoys.pdf)
 
 ## 🌊 Use Cases
 - EEZ defense and spoofed AIS detection
