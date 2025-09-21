@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bad Buoys - Modular Maritime Swarm</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0; padding: 0;
+      line-height: 1.6;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #ff4d00; /* Coast Guard orange */
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 { color: #004080; margin-top: 0; } /* Navy blue */
+    .grid {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .grid div {
+      flex: 1;
+      min-width: 250px;
+      background: white;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .highlight {
+      background: #eee;
+      padding: 0.8rem;
+      border: 2px solid #ff4d00;
+      border-radius: 6px;
+      font-family: monospace;
+      text-align: center;
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌊 Bad Buoys</h1>
+    <p>Other buoys float. Bad Buoys think.</p>
+  </header>
+
+  <section>
+    <h2>What is Bad Buoys?</h2>
+    <p>
+      <strong>Bad Buoys</strong> is an open-source project creating low-cost, DIY,
+      Raspberry Pi–powered maritime buoys. Designed for environmental monitoring,
+      AIS spoof detection, and swarm communication, these modular nodes bring
+      modern tools to maritime security and research.
+    </p>
+  </section>
+
+  <section>
+    <h2>Core Capabilities</h2>
+    <div class="grid">
+      <div>📡 AIS Spoof Detection</div>
+      <div>🌊 Drift Tracking</div>
+      <div>🧪 Environmental Sensors</div>
+      <div>🔗 Swarm Mesh Networking</div>
+      <div>🔋 Solar Recharge</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it Works</h2>
+    <div class="grid">
+      <div>
+        <img src="images/wiring-diagram.png" alt="Wiring Diagram">
+        <p>LoRa, GPS, and Pi wiring diagram.</p>
+      </div>
+      <div>
+        <img src="images/prototype.jpg" alt="Prototype Buoy">
+        <p>Prototype buoy built with foam hull and Pi Zero 2 W.</p>
+      </div>
+      <div>
+        <img src="images/sticker.png" alt="Sticker Art">
+        <p>Sticker art from the collectible card series.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Get the Files</h2>
+    <p>Clone the repo and start building:</p>
+    <div class="highlight">
+      git clone https://github.com/YOURUSERNAME/bad-buoys.git
+    </div>
+    <ul>
+      <li><a href="hardware/">⚙️ Hardware Diagrams</a></li>
+      <li><a href="software/">💻 Software</a></li>
+      <li><a href="docs/">📑 Documentation</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Built by <a href="https://github.com/YOURUSERNAME">Your GitHub</a> | 
+       <a href="https://medium.com/@BadDog">Medium</a></p>
+    <p>Open Source • MIT License</p>
+  </footer>
+</body>
+</html>
