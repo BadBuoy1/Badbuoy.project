@@ -51,14 +51,40 @@
       data back to shore even if one node fails.
   
   </ul>
-</section>
 
   
 <section>
   <h2>Wiring Diagram</h2>
-  <p>Logical overview of Raspberry Pi Zero 2 W connections to LoRa (RFM95W) and GPS module:</p>
-  <img src="images/wiring_diagram_physical.png" alt="Wiring Diagram" class="diagram">
+ <section>
+  <h2>ASCII Wiring Diagram</h2>
+  <pre>
+       ┌──────────────────┐
+       │ Raspberry Pi Zero│
+       │   2 W (40-pin)   │
+       └─────────┬────────┘
+                 │
+     ┌───────────┼────────────┐
+     │                        │
+┌────▼────┐              ┌────▼────┐
+│  LoRa   │              │  GPS    │
+│ RFM95W  │              │ Module  │
+└────┬────┘              └────┬────┘
+     │                        │
+     │                        │
+ ┌───▼────────────┐       ┌───▼────────────┐
+ │ Connections    │       │ Connections    │
+ │ • VIN → Pin 17 │       │ • VCC → Pin 2  │
+ │ • GND → Pin 14 │       │ • GND → Pin 6  │
+ │ • SCK → Pin 23 │       │ • TX → Pin 10  │
+ │ • MISO→ Pin 21 │       │ • RX → Pin 8   │
+ │ • MOSI→ Pin 19 │       └────────────────┘
+ │ • NSS → Pin 24 │
+ │ • RST → Pin 36 │
+ │ • DIO0→ Pin 37 │
+ └────────────────┘
+  </pre>
 </section>
+
 
   <!-- Visuals -->
  
@@ -131,6 +157,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
