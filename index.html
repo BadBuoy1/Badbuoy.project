@@ -17,23 +17,42 @@
   <section>
     <h2>What is the Bad Buoys project?</h2>
     <p>
-      <strong>Bad Buoys</strong> are an open-source project creating low-cost, DIY,
+      <strong>Bad Buoys</strong> is an open-source project creating low-cost, DIY,
       Raspberry Pi–powered maritime buoys. Designed for environmental and maritime monitoring,
       swarm communication, allowing modular nodes to bring modern tools to maritime security and research. 
       We can create a maritime drone together that can be multi-purpose, inexpensive, and achievable for the novice technician or student.
+    Let's protect our waterways together!
     </p>
   </section>
 
   <!-- Core Capabilities -->
-  <section>
-    <h2>Core Ideas</h2>
-    <div class="grid">
-      <div> AIS Spoof Detection</div>
-      <div> Drift Tracking</div>
-      <div>  Environmental Sensors</div>
-      <div>  Swarm Mesh Networking</div>
-    </div>
-  </section>
+<section>
+  <h2>Core Ideas</h2>
+  <ul class="core-ideas">
+    <li>
+      <strong>AIS Spoof Detection</strong> –  
+      Buoys equipped with LoRa, camera and GPS can cross-check vessel AIS signals with real position data,
+      flagging spoofed or ghost ships in restricted waters.
+    </li>
+    <li>
+      <strong>Drift Tracking</strong> –  
+      Each buoy logs GPS data, allowing researchers or security teams to model ocean
+      currents, vessel drift, or floating debris in real time.
+    </li>
+    <li>
+      <strong>Raspberry pi additional Sensors and Modular payloads</strong> –  
+      The raspberry pi board allows everything from sonar, wifi monitoring mode, audio/video
+      Modular payloads (temperature, salinity, pH, pollution detectors) can be added to collect
+      environmental and climate data in coastal zones.
+    </li>
+    <li>
+      <strong>Swarm Mesh Networking</strong> –  
+      Buoys communicate with each other via LoRa, forming a self-healing mesh network that relays
+      data back to shore even if one node fails.
+  
+  </ul>
+</section>
+
   
 <section>
   <h2>Wiring Diagram</h2>
@@ -46,7 +65,7 @@
     <h2>How it Works</h2>
     <div class="grid">
       <div>
-        <img src="images/wiring-diagram.png" alt="Wiring Diagram">
+        <img src="images/wiring-diagram_physical.png" alt="Wiring Diagram">
         <p>LoRa, GPS, and Pi wiring diagram.</p>
       </div>
       <div>
@@ -103,7 +122,7 @@
 
   <!-- Repository Links -->
   <section>
-    <h2>Get the Files</h2>
+    <h2>FILES</h2>
     <p>Clone the repo and start building:</p>
     <div class="highlight">
       git clone https://github.com/badbuoys/badbuoys.github.io.git
@@ -112,18 +131,18 @@
       <li><a href="https://github.com/badbuoys/badbuoys.github.io/tree/main/hardware/">Hardware Diagrams</a></li>
       <li><a href="software/">Scripts and files</a></li>
       <li><a href="https://github.com/badbuoys/badbuoys.github.io/tree/main/docs"> Documentation</a></li>
-       <li><a href="https://badbuoys.github.io/merch/">Bad Buoys Merch</a></li>
     </ul>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>Built by <a href="https://github.com/badbuoys">badbuoys</a> |
+    <p>
        <a href="www.linkedin.com/in/ian-donohue-16b5a7241">linkedin</a></p>
     <p>Open Source • MIT License</p>
   </footer>
 </body>
 </html>
+
 
 
 
