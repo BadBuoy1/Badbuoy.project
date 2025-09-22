@@ -20,6 +20,15 @@ p {
 }
 
 /* -------------------------------
+   Section Layout
+--------------------------------- */
+section {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 900px;
+}
+
+/* -------------------------------
    Banner & Header
 --------------------------------- */
 .site-banner {
@@ -35,7 +44,7 @@ p {
   color: #fff;
   background: #ff4500; /* Coast Guard orange */
   padding: 0.5rem;
-  margin: 0;
+  margin: 0 0 1.5rem 0; /* spacing below banner */
 }
 
 /* -------------------------------
